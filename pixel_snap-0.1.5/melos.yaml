@@ -1,0 +1,6 @@
+name: pixel_snap
+
+packages:
+  - .
+  - generator
+  - example

@@ -1,0 +1,30 @@
+name: flutter_cached_pdfview
+description: A package to show Native PDF View for iOS and Android, support Open from a different resource like Path, Asset or Url and Cache it.
+version: 0.4.3
+homepage: https://bnsaed.com/
+repository: https://github.com/binSaed/flutter_cached_pdfview
+issue_tracker: https://github.com/binSaed/flutter_cached_pdfview/issues
+
+
+topics:
+  - pdf
+  - cache
+  - pdf-cache
+  - pdf-view
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+# new pubspec
+#https://flutter.dev/docs/development/packages-and-plugins/developing-packages
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_pdfview: ">=1.0.0 <2.0.0"
+  flutter_cache_manager: ">=3.0.0 <4.0.0"
+  path_provider: ">=2.0.0 <3.0.0"
+  path: ">=1.0.0 <2.0.0"
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+flutter:

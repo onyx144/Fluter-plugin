@@ -1,0 +1,4 @@
+# melos_managed_dependency_overrides: pixel_snap
+dependency_overrides:
+  pixel_snap:
+    path: ..

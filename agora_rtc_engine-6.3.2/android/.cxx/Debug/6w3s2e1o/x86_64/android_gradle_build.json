@@ -1,0 +1,38 @@
+{
+  "buildFiles": [
+    "D:\\work\\flutter_pub_cache\\hosted\\pub.dev\\agora_rtc_engine-6.3.2\\android\\src\\main\\cpp\\CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "C:\\Users\\1\\AppData\\Local\\Android\\Sdk\\cmake\\3.22.1\\bin\\ninja.exe",
+      "-C",
+      "D:\\work\\flutter_pub_cache\\hosted\\pub.dev\\agora_rtc_engine-6.3.2\\android\\.cxx\\Debug\\6w3s2e1o\\x86_64",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "C:\\Users\\1\\AppData\\Local\\Android\\Sdk\\cmake\\3.22.1\\bin\\ninja.exe",
+    "-C",
+    "D:\\work\\flutter_pub_cache\\hosted\\pub.dev\\agora_rtc_engine-6.3.2\\android\\.cxx\\Debug\\6w3s2e1o\\x86_64",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "iris_rendering_android::@6890427a1f51a3e7e1df": {
+      "toolchain": "toolchain",
+      "abi": "x86_64",
+      "artifactName": "iris_rendering_android",
+      "output": "D:\\work\\tinder_test\\build\\agora_rtc_engine\\intermediates\\cxx\\Debug\\6w3s2e1o\\obj\\x86_64\\libiris_rendering_android.so",
+      "runtimeFiles": []
+    }
+  },
+  "toolchains": {
+    "toolchain": {
+      "cCompilerExecutable": "C:\\Users\\1\\AppData\\Local\\Android\\Sdk\\ndk\\25.1.8937393\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang.exe",
+      "cppCompilerExecutable": "C:\\Users\\1\\AppData\\Local\\Android\\Sdk\\ndk\\25.1.8937393\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe"
+    }
+  },
+  "cFileExtensions": [],
+  "cppFileExtensions": [
+    "cc"
+  ]
+}

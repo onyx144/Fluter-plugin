@@ -1,0 +1,16 @@
+# Don’t commit the following directories created by pub.
+.buildlog
+.pub/
+build/
+packages
+.packages
+
+pubspec.lock
+.DS_Store
+.dart_tool/
+
+# IntelliJ
+*.iml
+*.ipr
+*.iws
+.idea/

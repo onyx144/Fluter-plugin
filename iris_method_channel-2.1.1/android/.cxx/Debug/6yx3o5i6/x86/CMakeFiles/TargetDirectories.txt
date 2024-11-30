@@ -1,0 +1,3 @@
+D:/work/flutter_pub_cache/hosted/pub.dev/iris_method_channel-2.1.1/android/.cxx/Debug/6yx3o5i6/x86/CMakeFiles/iris_method_channel.dir
+D:/work/flutter_pub_cache/hosted/pub.dev/iris_method_channel-2.1.1/android/.cxx/Debug/6yx3o5i6/x86/CMakeFiles/edit_cache.dir
+D:/work/flutter_pub_cache/hosted/pub.dev/iris_method_channel-2.1.1/android/.cxx/Debug/6yx3o5i6/x86/CMakeFiles/rebuild_cache.dir

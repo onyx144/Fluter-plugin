@@ -1,0 +1,15 @@
+name: stacked_shared
+description: Shared code between the stacked packages.
+version: 1.4.1
+homepage: https://github.com/FilledStacks/stacked/tree/master/packages/stacked_shared
+
+environment:
+  sdk: '>=2.16.2 <3.0.0'
+
+
+dependencies:
+  get_it: ^7.1.4
+
+dev_dependencies:
+  lints: ^4.0.0
+  test: ^1.16.0

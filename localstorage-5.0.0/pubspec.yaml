@@ -1,0 +1,21 @@
+name: localstorage
+description: LocalStorage for Flutter. Alternative to React Native's AsyncStorage.
+version: 5.0.0
+homepage: https://github.com/lesnitsky/flutter_localstorage
+
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  path: ^1.9.0
+  path_provider: ^2.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:

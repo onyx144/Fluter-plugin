@@ -1,0 +1,30 @@
+workflows:
+  pub-dev-publishing:
+    name: Publishing to pub.dev
+    max_build_duration: 120
+    instance_type: mac_mini_m1
+    triggering:
+      events:
+        - push
+      branch_patterns:
+        - pattern: "master"
+          include: true
+          source: true
+      cancel_previous_builds: true
+
+    environment:
+      flutter: stable
+      groups:
+        - pub.dev
+
+    scripts:
+      - name: Install dependencies
+        script: flutter pub get
+      - name: Run tests
+        script: flutter test
+      - name: Publish to pub.dev
+        script: |
+          mkdir /Users/builder/Library/Application\ Support/dart
+          echo $PUB_DEV_CREDENTIALS | base64 --decode > /Users/builder/Library/Application\ Support/dart/pub-credentials.json
+          flutter pub publish --dry-run
+          flutter pub publish -f

@@ -1,0 +1,30 @@
+name: unicons
+description: 1000+ beautiful icons to use in you dream project, with all the customization Flutter provides
+# author: Pedro Lemos <lemozxpedro@gmail.com>
+homepage: https://github.com/pedrolemoz/unicons-flutter
+
+version: 3.0.0
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_lints: ^4.0.0
+
+flutter:
+  fonts:
+    - family: UniconsLine
+      fonts:
+        - asset: icons/UniconsLine.ttf
+    
+    - family: UniconsSolid
+      fonts:
+        - asset: icons/UniconsSolid.ttf
+
+    - family: UniconsThinline
+      fonts:
+        - asset: icons/UniconsThinline.ttf

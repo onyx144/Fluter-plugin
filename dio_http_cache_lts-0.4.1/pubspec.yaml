@@ -1,0 +1,29 @@
+name: dio_http_cache_lts
+description: It's just a maintainance version of the dio_http_cache package to be compatible with the latest dio package
+version: 0.4.1
+authors:
+  - Thet Naing Swe <thetnswe@gmail.com>
+homepage: https://gitlab.com/thetnswe/dio-http-cache-lts
+
+environment:
+  sdk: '>=2.12.0 <3.0.0'
+
+dependencies:
+  crypto: ^3.0.1
+  dio: ^4.0.0
+  flutter:
+    sdk: flutter
+  json_serializable: ^6.3.1
+  path: ^1.8.0
+  quiver: ^3.0.1
+  sqflite: ^2.0.0+3
+  json_annotation: ^4.6.0
+
+dev_dependencies:
+  build_runner: ^1.12.2
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  module:
+    androidX: true

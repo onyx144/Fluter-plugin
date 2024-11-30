@@ -1,0 +1,10 @@
+# ninja log v5
+6	87	7545150467991031	CMakeFiles/iris_method_channel.dir/dart-sdk/include/dart_api_dl.c.o	ae02d87b087f488c
+4	319	7545150470343059	CMakeFiles/iris_method_channel.dir/iris_life_cycle_observer.cc.o	8da26427eb7f60ff
+0	674	7545150473880154	CMakeFiles/iris_method_channel.dir/iris_event.cc.o	4a2c6a599f0f4722
+674	804	7545150475066911	D:/work/tinder_test/build/iris_method_channel/intermediates/cxx/Debug/5p4yk6mu/obj/arm64-v8a/libiris_method_channel.so	981d72ae921b19f7
+0	21	0	clean	1743349477948fb9
+5	3034	7546078652605966	CMakeFiles/iris_method_channel.dir/iris_event.cc.o	4a2c6a599f0f4722
+1028	3035	7546078654379881	CMakeFiles/iris_method_channel.dir/iris_life_cycle_observer.cc.o	8da26427eb7f60ff
+1877	3108	7546078661661291	CMakeFiles/iris_method_channel.dir/dart-sdk/include/dart_api_dl.c.o	ae02d87b087f488c
+3108	4751	7546078677917357	D:/work/tinder_test/build/iris_method_channel/intermediates/cxx/Debug/5p4yk6mu/obj/arm64-v8a/libiris_method_channel.so	981d72ae921b19f7
