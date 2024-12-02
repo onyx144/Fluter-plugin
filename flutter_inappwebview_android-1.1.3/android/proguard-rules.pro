@@ -17,8 +17,3 @@
 -keep class com.pichillilorenzo.flutter_inappwebview_android.** { *; }
 
 -dontwarn android.window.BackEvent
-
--keep class com.google.devtools.build.android.desugar.runtime.** { *; }
--keep class com.stripe.android.pushProvisioning.** { *; }
--dontwarn com.google.devtools.build.android.desugar.runtime.**
--dontwarn com.stripe.android.pushProvisioning.**

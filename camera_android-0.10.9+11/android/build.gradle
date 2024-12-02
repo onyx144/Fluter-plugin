@@ -37,7 +37,7 @@ buildFeatures {
     compileSdk 34
 
     defaultConfig {
-        minSdkVersion 23
+        minSdkVersion 21
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
     lintOptions {

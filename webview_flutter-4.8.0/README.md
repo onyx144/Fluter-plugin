@@ -73,7 +73,7 @@ You should however make sure to set the correct `minSdkVersion` in `android/app/
 ```groovy
 android {
     defaultConfig {
-        minSdkVersion 23
+        minSdkVersion 19
     }
 }
 ```

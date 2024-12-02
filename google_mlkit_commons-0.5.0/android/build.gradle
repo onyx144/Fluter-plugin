@@ -30,8 +30,7 @@ android {
     }
 
     defaultConfig {
-        minSdkVersion 23
-        namespace 'com.weabbble.jolii.google_mlkit_commons'
+        minSdkVersion 21
     }
 }
 

@@ -35,7 +35,7 @@ For more details, see [Getting started with Google Maps Platform](https://develo
 ```groovy
 android {
     defaultConfig {
-        minSdkVersion 23
+        minSdkVersion 20
     }
 }
 ```

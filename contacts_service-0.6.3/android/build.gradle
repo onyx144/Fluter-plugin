@@ -25,12 +25,11 @@ android {
     compileSdkVersion 30
 
     defaultConfig {
-        minSdkVersion 23
+        minSdkVersion 16
         targetSdkVersion 30
         versionCode 1
         versionName "1.0"
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
-        namespace 'com.weabbble.jolii.contactsservice'
     }
     lintOptions {
         disable 'InvalidPackage'

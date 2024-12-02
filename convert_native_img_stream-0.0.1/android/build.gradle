@@ -42,8 +42,7 @@ android {
     }
 
     defaultConfig {
-        minSdkVersion 23
-        namespace 'com.weabbble.jolii.convert_native_img_stream'
+        minSdkVersion 16
     }
 
     dependencies {
